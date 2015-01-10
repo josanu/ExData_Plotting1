@@ -18,7 +18,7 @@ png(file="plot1.png",width=480,height=480)
 hist(filtered$Global_active_power , col="red3", main="Global Active Power",xlab="Global Active Power (kilowatts)")
 dev.off()
 
-Plot 2
+#Plot 2
 png(file="plot2.png",width=480,height=480)
 plot(filtered$fechahora, filtered$Global_active_power, type = "l",xlab = "", ylab = "Global Active Power (kilowatts)")
 dev.off()
